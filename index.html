@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav_container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img class="img_cls" src="./assets/image/Asset 1@3x 1.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="#">БАНК<span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#">БИЗНЕС</a>
+                        <a class="nav-item nav-link" href="#">ИНВЕСТИЦИИ</a>
+                        <a class="nav-item nav-link" href="#">СТРАХОВАНИЕ</a>
+                        <a class="nav-item nav-link" href="#">МОБАЙЛ</a>
+                        <a class="nav-item nav-link" href="#">ПУТЕШЕСТВИЯ</a>
+                        <a class="nav-item nav-link end" href="#">РАЗВЛЕЧЕНИЯ</a>
+                    </div>
+                    <a class="navbar-brand" href="#"><button class="btn btn-light">ВОЙТИ</button></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="title">
+                    <p class="title_cls">Конвертер валют онлайн</p>
+                </div>
+                <div class="total_convert row">
+                    <div class="convert col col-lg-6 col-md-12 col-12">
+                        <p class="convert_p">У меня есть</p>
+                        <div class="d-flex justify-content-center valuta">
+                            <li>
+                                <a class="first_side_btns btn_cls1 btn btn-light checked_btn1">RUB</a>
+                            </li>
+                            <li>
+                                <a class="first_side_btns btn_cls1 btn btn-light">USD</a>
+                            </li>
+                            <li>
+                                <a class="first_side_btns btn_cls1 btn btn-light">EUR</a>
+                            </li>
+                            <li>
+                                <a class="first_side_btns btn_cls1 btn btn-light">GBP</a>
+                            </li>
+                        </div>
+                        <div class="converted d-flex justify-content-center">
+                            <input id="first_impt" type="number" class="input_value1">
+                            <span class="first_bottom span_cls1">1 RUB = 0.0135 USD</span>
+                        </div>
+                    </div>
+                    <div class="convert col col-lg-6 col-md-12 col-12">
+                        <p class="convert_p">Хочу приобрести</p>
+                        <div class="d-flex justify-content-center valuta">
+                            <li>
+                                <a class="second_side_btns btn_cls2 btn btn-light">RUB</a>
+                            </li>
+                            <li>
+                                <a class="second_side_btns btn_cls2 btn btn-light checked_btn2">USD</a>
+                            </li>
+                            <li>
+                                <a class="second_side_btns btn_cls2 btn btn-light">EUR</a>
+                            </li>
+                            <li>
+                                <a class="second_side_btns btn_cls2 btn btn-light">GBP</a>
+                            </li>
+                        </div>
+                        <div class="converted2 d-flex justify-content-center">
+                            <input id="second_impt" type="number" class="input_value2">
+                            <span class="second_bottom span_cls2">1 USD = 73.8896 RUB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <canvas id="canvas"></canvas>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
